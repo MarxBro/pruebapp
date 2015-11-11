@@ -1,0 +1,15 @@
+<h2>Hola!</h2>
+
+<p>
+Esta es una prueba en Dancer: un ekeko bloggeador.
+</p>
+
+<br/>
+<h2> Entradas </h2>
+
+<ul>
+<% FOR p in data.keys.sort %>
+    <li><% data.$p.fecha %> - <a href="/page/<% p %>"><% data.$p.titulo %></a></li>
+<% END %>
+<div id="footer"><a href="/do">Agregar</a> una entrada.</div>
+</ul>

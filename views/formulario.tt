@@ -1,0 +1,14 @@
+<h1>Agregar una Entrada</h1>
+<form action="/do" method="post">
+Titulo:
+<br />
+<input type="text" name="titulo" size="88">
+<br />
+
+<textarea cols="88" rows="10" name="contenido">
+Contenido
+</textarea>
+<br />
+<input type="submit" name="ok">
+</form>
+<div id="footer">Volver a la <a href="/">página principal</a>.</div>

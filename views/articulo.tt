@@ -1,0 +1,5 @@
+<h2><% titulo %></h2>
+
+<pre><% contenido %></pre>
+
+<div id="footer">Volver a la <a href="/">página principal</a>.</div>

@@ -7,7 +7,7 @@
 <h2> Entradas </h2>
 
 <ul>
-<% FOR p in data.keys.sort %>
+<% FOR p in data.keys.sort.reverse %>
     <li><% data.$p.fecha %> - <a href="/page/<% p %>"><% data.$p.titulo %></a></li>
 <% END %>
 </ul>

@@ -2,11 +2,11 @@
 <form action="/do" method="post">
 Titulo:
 <br />
-<input type="text" name="titulo" size="88">
+<input type="text" name="titulo" size="88" value="<% titulo %>">
 <br />
 
 <textarea cols="88" rows="10" name="contenido">
-Contenido
+<% contenido %>
 </textarea>
 <br />
 <input type="submit" name="ok">

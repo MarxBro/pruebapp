@@ -31,3 +31,6 @@ engines:
 # Para leer/escribir la data en JSON.
 pruebapp:
     JSON: lib/db.json
+    admin_p: sabaduba123
+    descripcion: Este es un blog muy simple hecho en base a Dancer2.
+    autor: MarxBro

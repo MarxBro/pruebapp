@@ -1,7 +1,6 @@
 <h2>Hola!</h2>
 
-<p>
-Esta es una prueba en Dancer: un ekeko bloggeador.
+<p><% descripcion %>
 </p>
 
 <br/>
@@ -11,5 +10,7 @@ Esta es una prueba en Dancer: un ekeko bloggeador.
 <% FOR p in data.keys.sort %>
     <li><% data.$p.fecha %> - <a href="/page/<% p %>"><% data.$p.titulo %></a></li>
 <% END %>
-<div id="footer"><a href="/do">Agregar</a> una entrada.</div>
 </ul>
+
+<br/>
+<div id="footer"><% autor%> - <a href="/do">Agregar</a> una entrada.</div>

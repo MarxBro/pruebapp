@@ -95,5 +95,13 @@ post '/do' => sub {
     }
 };
 
+# Regla para agarrar cualquier error o balazo cósmico.
+any qr{.*} => sub {
+    status 'not_found';
+    template '404', { path => request->path };
+};
+
+
+
 
 true;
